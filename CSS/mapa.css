@@ -1,0 +1,249 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+header {
+    width: 100%;
+}
+    
+body {
+    width: auto;
+    margin-left: -50px;
+    background: url(../IMG/background3.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.mapa {
+    width: auto;
+    display: flex;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    justify-content: center;
+}
+
+    
+nav {
+    background-color: #010427;
+    padding: 10px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo {
+    padding-left: 50px;
+}
+    
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 20px;
+    overflow: hidden;
+    transition: all 0.5s;
+}
+    
+nav li {
+    margin-left: 30px;
+}
+    
+nav li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+    
+nav li a:hover {
+    background-color: #fff;
+    color:#010427
+}
+
+.chama_whatsapp ul li {
+    text-align: center;
+    display: none;
+}
+.chama_whatsapp ul li a {
+    text-decoration: none;
+    background-color: green;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    color:#fff;
+}
+    /*Estilo do footer*/
+footer {
+    width: auto;
+    background-color: #010427;
+ }
+
+footer .contato {
+    height: 20vh;
+    padding: 10vh;
+}
+
+footer .contato h1 {
+    color:#fff;
+    font-size: 0.8em;
+    opacity: 0.7;
+    margin-bottom: 4px;
+}
+
+footer .contato p {
+    color:#fff;
+    font-size: 0.7em;
+    opacity: 0.6;
+    margin-bottom: 3px;
+
+}
+footer .rights_reserved {
+    color:#fff;
+    font-size: 0.7em;
+    opacity: 0.6;
+    text-align: center;
+    margin: 20px;
+}
+
+.waves{
+    position: relative;
+    width: 100%;
+    background-color: #010427;
+    height: 20vh;
+    overflow: hidden;
+}
+
+.waves .wave {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url(/img/wave.png);
+    background-size: 1000px 100px;
+}
+
+.waves .wave.wave1 {
+    animation: animate 10s linear infinite;
+    z-index: 1000;
+    opacity: 1;
+    animation-delay: 0s;
+    bottom: 0;
+}
+
+.waves .wave.wave2 {
+    animation: animate2 15s linear infinite;
+    z-index: 999;
+    opacity: 0.5;
+    animation-delay: -5s;
+    bottom: 10px;
+}
+
+.waves .wave.wave3 {
+    animation: animate3 30s linear infinite;
+    z-index: 998;
+    opacity: 0.2;
+    animation-delay: -2s;
+    bottom: 15px;
+}
+
+.waves .wave.wave4 {
+    animation: animate4 5s linear infinite;
+    z-index: 997;
+    opacity: 0.7;
+    animation-delay: -5s;
+    bottom: 20px;
+}
+
+@keyframes animate {
+    0%
+    {
+        background-position-x: 0;
+    }
+    100%
+    {
+        background-position-x: 1000px;
+    }
+}
+
+@keyframes animate2 {
+    0%
+    {
+        background-position-x: 0;
+    }
+    100%
+    {
+        background-position-x: -1000px;
+    }
+}
+
+@keyframes animate3 {
+    0%
+    {
+        background-position-x: 0;
+    }
+    100%
+    {
+        background-position-x: -1000px;
+    }
+}
+
+@keyframes animate4 {
+    0%
+    {
+        background-position-x: 0;
+    }
+    100%
+    {
+        background-position-x: -1000px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    
+    body {
+        width: 100%;
+        background-color: #010427;
+        margin: 0;
+        padding: 0;
+    }
+    footer {
+        width: 100%;
+        text-align: center;
+    }
+
+    ul {
+        padding: 10px;
+    }
+
+    li {
+        display: none;
+    }
+
+    nav .logo {
+        margin: auto;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+    }
+
+    .mapa {
+        width: auto;
+        
+    }
+    
+    iframe {
+        width: 50vh;
+    }
+
+    .chama_whatsapp ul li {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        padding-bottom: 5vh;
+    }
+
+}
