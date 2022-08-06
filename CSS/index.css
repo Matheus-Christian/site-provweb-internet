@@ -109,6 +109,11 @@ button:hover{
     text-align: center;
 }
 
+.container .card a {
+    text-decoration: none;
+    color: #666;
+}
+
 .container .card img {
     transition: 0.5s;
 }
@@ -174,6 +179,11 @@ button:hover{
 .container .card:hover a {
     color: black;
     background-color: #fff;
+}
+
+.container .card:hover .link_info {
+    background-color: transparent;
+    color: #fff;
 }
 
 /*Estilo do footer*/

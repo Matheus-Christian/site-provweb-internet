@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;0,500;1,100&display=swap');
+
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: 'Montserat', Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #010427;
+}
+
+.container {
+    color: #fff;
+    text-align: center;
+    
+}
+
+.container .section_info {
+    margin: 10vh;
+}
+
+.container .section_info div h1 {
+    padding: 2%;
+}
+
+.container .section_info hr {
+    margin-top: 2%;
+}
+
+.container .section_info div a {
+    padding: 1%;
+}
