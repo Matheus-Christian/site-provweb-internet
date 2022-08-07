@@ -4,31 +4,94 @@
 padding: 0;
 margin: 0;
 box-sizing: border-box;
-font-family: 'Montserat', Arial, Helvetica, sans-serif;
+font-family: 'Montserrat';
 }
 
 body {
     background-color: #010427;
 }
-
 .container {
-    color: #fff;
+    display: flex;
+    justify-content: center;
     text-align: center;
     
 }
 
 .container .section_info {
     margin: 10vh;
+    width: 100vh;
+}
+
+.container .section_info div {
+    background-color: #fff;
+    padding: 2%;
+    width: auto;
+    margin: auto;
+    margin-bottom: 3vh;
+    text-align: center;
+    border-radius: 10px;
 }
 
 .container .section_info div h1 {
-    padding: 2%;
+    padding-bottom: 1.5%;
+    color: #010427;
 }
 
-.container .section_info hr {
-    margin-top: 2%;
-}
-
-.container .section_info div a {
+.container .section_info div p {
     padding: 1%;
+}
+
+.container .section_info div iframe {
+    margin: auto;
+    width: 80vh;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #010427;
+}
+
+/* Rodapé */
+.container_rodape div{
+    text-align: center;
+    margin: auto;
+    margin-bottom: 3vh;
+}
+.container_rodape div a {
+    color: #fff;
+    text-decoration: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.container_rodape .rodape_whatsapp {
+    margin-bottom: 10vh;
+}
+
+.container_rodape div a:hover {
+    background-color: #fff;
+    color:#010427
+}
+
+@media screen and (max-width: 700px) {
+
+    .container .section_info {
+        margin: 2vh;
+    }
+   
+    .container .section_info div iframe {
+        width: auto;
+        margin: auto;
+ 
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .container .section_info {
+        margin: auto;
+        margin-top: 2vh;
+        background-color: #fff;
+    }
+
+    .container_rodape  {
+        margin-top: 10vh;
+    }
 }

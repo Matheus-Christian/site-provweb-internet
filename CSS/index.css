@@ -352,3 +352,14 @@ button:focus ~ ul {
         text-align: center;
     }
 }
+
+@media screen and (max-width: 360px) {
+
+    .container {
+        padding: 2px;
+    }
+    .container .card {
+        margin: auto;
+        margin-bottom: 2vh;
+    }
+}
