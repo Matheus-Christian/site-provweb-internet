@@ -37,6 +37,10 @@ nav {
     align-items: center;
 }
 
+nav .logo {
+    padding-left: 5vh;
+}
+
 nav ul {
     display: flex;
     align-items: center;
@@ -221,7 +225,7 @@ footer .rights_reserved {
     position: relative;
     width: 100%;
     background-color: #010427;
-    height: 20vh;
+    height: 23vh;
     overflow: hidden;
 }
 
@@ -324,12 +328,12 @@ button:focus ~ ul {
 
     nav, ul {
         flex-direction: column;
-
     }
     ul {
         text-align: center;
         margin: 0;
         height: 0;
+
     }
     nav {
         align-items: flex-start;
@@ -361,5 +365,19 @@ button:focus ~ ul {
     .container .card {
         margin: auto;
         margin-bottom: 2vh;
+    }
+
+    nav {
+        padding: 0;
+    }
+    nav ul {
+        width: auto;
+        margin: auto;
+        
+    }
+
+    header {
+        margin-bottom: -30px;
+        margin-top: 15px;
     }
 }
