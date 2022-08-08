@@ -37,23 +37,43 @@ body {
     padding-top: 2%
 }
 
-.content .content-speed div img {
+.content .content-speed div .img {
+    justify-content: center;
+    
     border: 1px solid blue;
 }
 
 @media screen and (max-width: 900px) {
     .content-speed {
         width: auto;
-        margin: 2vh;
+        margin: 0;
     }
 
     .content .content-speed div {
-        margin: 2%;
+        margin: 0;
+        margin-top: 2%;
+        border-radius: 0;
     }
     .content .content-speed div .img {
-        height: auto;
-        width: auto;
-        margin: auto;
+        width: 80vh;
         border: 2px solid black;
+    }
+}
+
+@media screen and (max-width: 625px) {
+    .content .content-speed div .img {
+        width: 50vh;
+    }
+}
+
+@media screen and (max-width: 435px) {
+    .content .content-speed div .img {
+        width: 40vh;
+    }
+}
+
+@media screen and (max-width: 435px) {
+    .content .content-speed div .img {
+        width: 30vh;
     }
 }
