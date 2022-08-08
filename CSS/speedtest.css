@@ -65,9 +65,3 @@ body {
         width: 40vh;
     }
 }
-
-@media screen and (max-width: 435px) {
-    .content .content-speed div .img {
-        width: 30vh;
-    }
-}
