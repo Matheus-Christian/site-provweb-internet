@@ -12,11 +12,9 @@ body {
 }
 
 .content {
-    border: 5px solid yellow;
     width: auto;
 }
 .content-speed {
-    border: 3px solid green;
     width: 90%;
     margin: auto;
 }
@@ -30,7 +28,6 @@ body {
     border-radius: 20px;
     align-items: center;
     justify-content: center;
-    border: 1px solid red;
 }
 
 .content .content-speed div p {
@@ -39,8 +36,6 @@ body {
 
 .content .content-speed div .img {
     justify-content: center;
-    
-    border: 1px solid blue;
 }
 
 @media screen and (max-width: 900px) {
@@ -56,7 +51,6 @@ body {
     }
     .content .content-speed div .img {
         width: 80vh;
-        border: 2px solid black;
     }
 }
 
