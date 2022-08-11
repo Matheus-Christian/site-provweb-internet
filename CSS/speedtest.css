@@ -28,6 +28,7 @@ body {
     border-radius: 20px;
     align-items: center;
     justify-content: center;
+    border: 1px solid green;
 }
 
 .content .content-speed div p {
@@ -35,6 +36,48 @@ body {
 }
 
 .content .content-speed div .img {
+    justify-content: center;
+}
+
+.content .content-speed div iframe {
+    width: 80vw;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #010427;
+}
+
+.content .content-speed div .link-speedtest {
+    margin: 0;
+    border: 2px solid yellow;
+}
+
+
+.content .content-speed div .link-speedtest .btn-speedtest {
+    text-decoration: none;
+    background-color: #010427;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 2em;
+    color: #fff;
+
+}
+
+.content .content-speed div .link-speedtest .btn-fast {
+    text-decoration: none;
+    background-color: red;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 2em;
+    color: #fff;
+}
+
+.content .btn-voltar a{
+    text-decoration: none;
+    padding: 5px;
+    outline: none;
+    border-radius: 5px;
+    font-size: 1.5em;
+    color: #fff;
     justify-content: center;
 }
 
@@ -57,6 +100,14 @@ body {
 @media screen and (max-width: 625px) {
     .content .content-speed div .img {
         width: 48vh;
+    }
+
+    .content .content-speed div .link-speedtest .btn-speedtest {
+        font-size: 1.5em;
+    }
+
+    .content .content-speed div .link-speedtest .btn-fast {
+        font-size: 1.5em;
     }
 }
 
