@@ -28,7 +28,6 @@ body {
     border-radius: 20px;
     align-items: center;
     justify-content: center;
-    border: 1px solid green;
 }
 
 .content .content-speed div p {
@@ -40,7 +39,7 @@ body {
 }
 
 .content .content-speed div iframe {
-    width: 80vw;
+    width: 80vh;
     margin: auto;
     border-radius: 5px;
     box-shadow: 2px 2px 5px #010427;
@@ -48,7 +47,6 @@ body {
 
 .content .content-speed div .link-speedtest {
     margin: 0;
-    border: 2px solid yellow;
 }
 
 
@@ -71,6 +69,10 @@ body {
     color: #fff;
 }
 
+.content .btn-voltar {
+    margin: 0;
+}
+
 .content .btn-voltar a{
     text-decoration: none;
     padding: 5px;
@@ -79,6 +81,14 @@ body {
     font-size: 1.5em;
     color: #fff;
     justify-content: center;
+    display:flex ;
+    margin-bottom: 3vh;
+    border: 1px solid red;
+}
+
+.content .btn-voltar a:hover {
+    background-color: #fff;
+    color: #010427;
 }
 
 @media screen and (max-width: 900px) {
@@ -95,6 +105,10 @@ body {
     .content .content-speed div .img {
         width: 80vh;
     }
+}
+
+.content .content-speed div iframe {
+    width: auto;
 }
 
 @media screen and (max-width: 625px) {
