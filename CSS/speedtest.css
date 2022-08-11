@@ -83,12 +83,6 @@ body {
     justify-content: center;
     display:flex ;
     margin-bottom: 3vh;
-    border: 1px solid red;
-}
-
-.content .btn-voltar a:hover {
-    background-color: #fff;
-    color: #010427;
 }
 
 @media screen and (max-width: 900px) {
